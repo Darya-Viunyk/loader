@@ -1,8 +1,7 @@
 import React from "react-dom";
-import { Box, BoxWave, Wave } from "./MainLoader.styled";
-// import { Box, BoxWave, Wave } from "./MainLoader.styled";
-
-export const App = () => {
+import { Box, BoxWave, Wave } from "./LoaderViolet.styled";
+// import { Box, BoxWave, Wave } from "./LoaderGreen.styled";
+export const Loader = () => {
   const waveElements = Array.from({ length: 20 }, (_, index) => (
     <Wave key={index} />
   ));

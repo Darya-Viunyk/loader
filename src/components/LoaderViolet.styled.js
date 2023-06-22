@@ -1,7 +1,4 @@
 import styled from "@emotion/styled";
-/***
- * wave loader
- */
 
 export const Box = styled.div`
   position: fixed;
@@ -12,7 +9,6 @@ export const Box = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: linear-gradient(90deg, #ff634e 0%, #ffdf48 105.44%);
 `;
 export const BoxWave = styled.div`
   position: relative;
@@ -42,7 +38,8 @@ export const Wave = styled.div`
     bottom: -4.75625em;
     left: 0.24375em;
     animation-delay: 75ms;
-    border-color: transparent transparent #ffdf48 #ffdf48;
+    border-color: transparent transparent #5255bc #6e71d5;
+
     border-radius: 9.5125em;
   }
 
@@ -52,8 +49,7 @@ export const Wave = styled.div`
     bottom: -4.5125em;
     left: 0.4875em;
     animation-delay: 150ms;
-    border-color: transparent transparent rgba(255, 223, 72, 0.90714)
-      rgba(255, 223, 72, 0.905714);
+    border-color: transparent transparent #5255bc #6e71d5;
     border-radius: 9.025em;
   }
 
@@ -63,8 +59,7 @@ export const Wave = styled.div`
     bottom: -4.26875em;
     left: 0.73125em;
     animation-delay: 225ms;
-    border-color: transparent transparent rgba(255, 223, 72, 0.85714)
-      rgba(255, 223, 72, 0.85714);
+    border-color: transparent transparent #6e71d5 #8083e7;
     border-radius: 8.5375em;
   }
 
@@ -74,8 +69,7 @@ export const Wave = styled.div`
     bottom: -4.025em;
     left: 0.975em;
     animation-delay: 300ms;
-    border-color: transparent transparent rgba(255, 223, 72, 0.809523)
-      rgba(255, 223, 72, 0.809523);
+    border-color: transparent transparent #6e71d5 #8083e7;
     border-radius: 8.05em;
   }
   &:nth-child(5) {
@@ -84,8 +78,7 @@ export const Wave = styled.div`
     bottom: -3.78125em;
     left: 1.21875em;
     animation-delay: 375ms;
-    border-color: transparent transparent rgba(255, 223, 72, 0.761904)
-      rgba(255, 223, 72, 0.761904);
+    border-color: transparent transparent #8083e7 #9699f4;
     border-radius: 7.5625em;
   }
 
@@ -95,8 +88,7 @@ export const Wave = styled.div`
     bottom: -3.5375em;
     left: 1.4625em;
     animation-delay: 450ms;
-    border-color: transparent transparent rgba(255, 223, 72, 0.714285)
-      rgba(255, 223, 72, 0.714285);
+    border-color: transparent transparent #8083e7 #9699f4;
     border-radius: 7.075em;
   }
   &:nth-child(7) {
@@ -105,8 +97,7 @@ export const Wave = styled.div`
     bottom: -3.29375em;
     left: 1.70625em;
     animation-delay: 525ms;
-    border-color: transparent transparent rgba(255, 223, 72, 0.655555)
-      rgba(255, 223, 72, 0.655555);
+    border-color: transparent transparent #8083e7 #9699f4;
     border-radius: 6.5875em;
   }
   &:nth-child(8) {
@@ -115,8 +106,7 @@ export const Wave = styled.div`
     bottom: -3.05em;
     left: 1.95em;
     animation-delay: 600ms;
-    border-color: transparent transparent rgba(255, 223, 72, 0.62)
-      rgba(255, 223, 72, 0.62);
+    border-color: transparent transparent #9699f4 #bdbffb;
     border-radius: 6.1em;
   }
   &:nth-child(9) {
@@ -125,8 +115,7 @@ export const Wave = styled.div`
     bottom: -2.80625em;
     left: 2.19325em;
     animation-delay: 675ms;
-    border-color: transparent transparent rgba(255, 223, 72, 0.571428)
-      rgba(255, 223, 72, 0.571428);
+    border-color: transparent transparent #9699f4 #bdbffb;
     border-radius: 5.6125em;
   }
   &:nth-child(10) {
@@ -135,8 +124,7 @@ export const Wave = styled.div`
     bottom: -2.5625em;
     left: 2.4375em;
     animation-delay: 750ms;
-    border-color: transparent transparent rgba(255, 223, 72, 0.523809)
-      rgba(255, 223, 72, 0.523809);
+    border-color: transparent transparent #bdbffb #d5d6fa;
     border-radius: 5.125em;
   }
 
@@ -146,8 +134,7 @@ export const Wave = styled.div`
     bottom: -2.31875em;
     left: 2.68125em;
     animation-delay: 825ms;
-    border-color: transparent transparent rgba(255, 223, 72, 0.4761904)
-      rgba(255, 223, 72, 0.4761904);
+    border-color: transparent transparent #bdbffb #d5d6fa;
     border-radius: 4.6375em;
   }
   &:nth-child(12) {
@@ -156,8 +143,7 @@ export const Wave = styled.div`
     bottom: -2.075em;
     left: 2.925em;
     animation-delay: 900ms;
-    border-color: transparent transparent rgba(255, 223, 72, 0.4285714)
-      rgba(255, 223, 72, 0.4285714);
+    border-color: transparent transparent #d5d6fa #eaebfe;
     border-radius: 4.15em;
   }
   &:nth-child(13) {
@@ -166,8 +152,7 @@ export const Wave = styled.div`
     bottom: -1.83125em;
     left: 3.16875em;
     animation-delay: 975ms;
-    border-color: transparent transparent rgba(255, 223, 72, 0.38095)
-      rgba(255, 223, 72, 0.38095);
+    border-color: transparent transparent #d5d6fa #eaebfe;
     border-radius: 3.6625em;
   }
   &:nth-child(14) {
@@ -176,8 +161,7 @@ export const Wave = styled.div`
     bottom: -1.5875em;
     left: 3.4125em;
     animation-delay: 1050ms;
-    border-color: transparent transparent rgba(255, 223, 72, 0.3333333333)
-      rgba(255, 223, 72, 0.3333333333);
+    border-color: transparent transparent #eaebfe #f5f5fe;
     border-radius: 3.175em;
   }
   &:nth-child(15) {
@@ -186,8 +170,7 @@ export const Wave = styled.div`
     bottom: -1.34375em;
     left: 3.65625em;
     animation-delay: 1125ms;
-    border-color: transparent transparent rgba(255, 223, 72, 0.285714)
-      rgba(255, 223, 72, 0.285714);
+    border-color: transparent transparent #eaebfe #f5f5fe;
     border-radius: 2.6875em;
   }
   &:nth-child(16) {
@@ -196,8 +179,7 @@ export const Wave = styled.div`
     bottom: -1.1em;
     left: 3.9em;
     animation-delay: 1200ms;
-    border-color: transparent transparent rgba(255, 223, 72, 0.2390852)
-      rgba(255, 223, 72, 0.2390852);
+    border-color: transparent transparent #eaebfe #f5f5fe;
     border-radius: 2.2em;
   }
   &:nth-child(17) {
@@ -206,8 +188,7 @@ export const Wave = styled.div`
     bottom: -0.85625em;
     left: 4.14375em;
     animation-delay: 1275ms;
-    border-color: transparent transparent rgba(255, 223, 72, 0.2)
-      rgba(255, 223, 72, 0.2);
+    border-color: transparent transparent #eeeeee #f0f0f0;
     border-radius: 1.7125em;
   }
   &:nth-child(18) {
@@ -216,8 +197,7 @@ export const Wave = styled.div`
     bottom: -0.6125em;
     left: 4.3875em;
     animation-delay: 1350ms;
-    border-color: transparent transparent rgba(255, 223, 72, 0.172857)
-      rgba(255, 223, 72, 0.172857);
+    border-color: transparent transparent #f9f9fd #f0f0f0;
     border-radius: 1.225em;
   }
   &:nth-child(19) {
@@ -226,8 +206,7 @@ export const Wave = styled.div`
     bottom: -0.36875em;
     left: 4.63125em;
     animation-delay: 1425ms;
-    border-color: transparent transparent rgba(255, 223, 72, 0.1455555)
-      rgba(455, 223, 72, 0.1455555);
+    border-color: transparent transparent #eeeeee #f0f0f0;
     border-radius: 0.7375em;
   }
   &:nth-child(20) {
@@ -236,8 +215,7 @@ export const Wave = styled.div`
     bottom: -0.125em;
     left: 4.875em;
     animation-delay: 1500ms;
-    border-color: transparent transparent rgba(255, 223, 72, 0.1455555)
-      rgba(255, 223, 72, 0.1455555);
+    border-color: transparent transparent #eeeeee #f0f0f0;
     border-radius: 0.25em;
   }
 
