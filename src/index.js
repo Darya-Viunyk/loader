@@ -1,9 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { Loader } from "Loader";
+import { LoaderSmall } from "smallloader/LoaderSmall";
+import "./styles.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <Loader />
+    <LoaderSmall />
   </React.StrictMode>
 );

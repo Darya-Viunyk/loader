@@ -1,12 +1,12 @@
 /* @import-normalize; */
-bring in normalize.css styles body {
+body {
   margin: 0;
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-body[data-theme="dark"] {
+body[data-theme="green"] {
   --accentWave1: rgba(184, 188, 253, 1) rgba(184, 188, 253, 1);
   --accentWave2: rgba(184, 188, 253, 0.905714) rgba(184, 188, 253, 0.905714);
   --accentWave3: rgba(184, 188, 253, 0.85714) rgba(184, 188, 253, 0.85714);
@@ -34,7 +34,7 @@ body[data-theme="dark"] {
     #bedbb0 92.19%
   );
 }
-body[data-theme="violet"] {
+/* body[data-theme="violet"] {
   --accentWave1: rgba(190, 219, 176, 1) rgba(190, 219, 176, 1);
   --accentWave2: rgba(190, 219, 176, 0.905714) rgba(190, 219, 176, 0.905714);
   --accentWave3: rgba(190, 219, 176, 0.85714) rgba(190, 219, 176, 0.85714);
@@ -57,7 +57,7 @@ body[data-theme="violet"] {
   --accentWave19: rgba(190, 219, 176, 0.1455555) rgba(190, 219, 176, 0.1455555);
   --accentWave20: rgba(190, 219, 176, 0.1455555) rgba(190, 219, 176, 0.1455555);
   --backgrountviolet: rgba(255, 255, 255, 1);
-}
+} */
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
