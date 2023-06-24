@@ -5,6 +5,7 @@ bring in normalize.css styles body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
 body[data-theme="dark"] {
   --accentWave1: rgba(184, 188, 253, 1) rgba(184, 188, 253, 1);
   --accentWave2: rgba(184, 188, 253, 0.905714) rgba(184, 188, 253, 0.905714);
